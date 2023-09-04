@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , intial-scale=1.0">
+    <title>All Products Flash Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d84937ac63.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/Flash Shop Logo.png" width="125px">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Products.html">Products</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="accounts.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img class="cartic" src="images/cart1.ico" width="30px" height="30px"></a>
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+            
+        </div>
+
+    <!--Single Produc Details-->
+
+    <div class="small-container single-product">
+        <div class="row">
+            <div class="col-2">
+                <img src="images/Product/m2 g1.jpg" width="100%" id="ProductImg">
+                
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="images/Product/m2 g1.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/Product/m2 g2.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/Product/m2 g3.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/Product/m2 g4.jpg" width="100%" class="small-img">
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <p>Samsung</p>
+                <h1>Samsung Galaxy S21 Ultra 5G</h1>
+                <h4><i class="fa fa-rupee-sign"></i> 1,05,999</h4>
+                <select>
+                    <option>Select Color</option> 
+                    <option>Black</option> 
+                    <option>Blue</option> 
+                    <option>Red</option> 
+                </select>
+                <input type="number" value="1">
+                <a href="checkout.html" class="btn">Buy Now</a>
+                <h3>Product Details <i class="fa fa-indent"></i></h3>
+                <br>
+                <p>12GB RAM | 256GB internal Storage, Quad rear camera setup- Main Camera 108MP + Ultra Wide 12MP,5000mAH lithium-ion battery.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--title-->
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>Related Products</h2>
+            <p>View More</p>
+        </div>
+    </div>
+
+    <!--product detail-->
+    <div class="small-container">
+        <div class="row">
+            <div class="col-4">
+                <img src="images/m1 g1.jpg">
+                <h4><a href="m1.html">APPLE iPhone 12 Pro Max</a></h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p><i class="fa fa-rupee-sign"></i> 1,35,900</p>
+            </div>
+            <div class="col-4">
+                <img src="images/dw2 g1.jpg">
+                <h4> <a href="dw2.html">Apple Watch Series 6</a> </h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p><i class="fa fa-rupee-sign"></i> 43,900</p>
+            </div>
+            <div class="col-4">
+                <img src="images/m3 g1.jpg">
+                <h4> <a href="m3.html"> OnePlus 9R 5G </a> </h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p><i class="fa fa-rupee-sign"></i> 39,999</p>
+            </div>
+            <div class="col-4">
+                <img src="images/dw1 g1.jpg">
+                <h4> <a href="dw1.html">OnePlus Watch Midnight Black</a> </h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p><i class="fa fa-rupee-sign"></i> 13,999</p>
+            </div>
+        </div>
+     </div>
+    
+
+
+   
+
+    <!--footer-->
+
+    <div class="foot">
+        <div class="contriner">
+            <div class="row">
+                <div class="foot-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android And ios mobile phone</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png">
+                        <img src="images/app-store.png">
+                    </div>
+                </div>
+                <div class="foot-col-2">
+                    <img src="images/Flash Shop Logo.png">
+                    <p>Our Purpose Is To Sustainably Make the Pleasure and Benifits of Sports Accessible to the Many.</p>
+                </div>
+                <div class="foot-col-3">
+                    <h3>Useful Links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Blog Post</li>
+                            <li>Return Pliocy</li>
+                            <li>Join Afiliate</li>
+                        </ul>
+                </div>
+                <div class="foot-col-4">
+                    <h3>Follow Us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Instagram</li>
+                            <li>YouTube</li>
+                        </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2020 -flashshop</p>
+        </div>
+    </div>
+
+    <!--js for toggle menu--->
+
+    <script>
+        var MenuItems= document.getElementById("MenuItems");
+  
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+            {
+              MenuItems.style.maxHeight = "200px";
+            }
+            else
+            {
+              MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+<!--Js for prduct gallery-->
+
+<script>
+    var ProductImg = document.getElementById("ProductImg");
+        var SmallImg = document.getElementsByClassName("small-img");
+
+        SmallImg[0].onclick = function()
+        {
+            ProductImg.src = SmallImg[0].src;
+        }
+        SmallImg[1].onclick = function()
+        {
+            ProductImg.src = SmallImg[1].src;
+        }
+        SmallImg[2].onclick = function()
+        {
+            ProductImg.src = SmallImg[2].src;
+        }
+        SmallImg[3].onclick = function()
+        {
+            ProductImg.src = SmallImg[3].src;
+        }
+
+</script>
+</body>
+</html>
